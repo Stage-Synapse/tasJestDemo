@@ -3,7 +3,6 @@ framework: jest
 preRun:
   command:
     - npm i  
-    - npm i jest-cli
 postMerge:
   pattern: 
     - "./src/*.test.js"
